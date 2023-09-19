@@ -44,7 +44,7 @@ hour_df = hour_df[(hour_df['date'] >= str(min_date)) & (hour_df['date'] <= str(m
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("https://github.com/bagusakhlaq/DICODING-Bike_Sharing_Dashboard/blob/541e5b150c6fb9947607a19420a8d0adf95c8390/assets/logo.png")
+    st.image("https://github.com/bagusakhlaq/DICODING-Bike_Sharing_Dashboard/blob/main/assets/logo.png?raw=true")
 
 with col2:
     st.header("Bike Share Dashboard")
