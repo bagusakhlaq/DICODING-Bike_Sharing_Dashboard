@@ -41,10 +41,10 @@ hour_df = hour_df[(hour_df['date'] >= str(min_date)) & (hour_df['date'] <= str(m
 # ---------------------------- Dashboard Making ------------------------------------------
 
 # Set the dashboard title
-col1, col2 = st.columns(2)
+col1, col2 = st.columns([0.1, 0.9], gap='small')
 
 with col1:
-    st.image("https://github.com/bagusakhlaq/DICODING-Bike_Sharing_Dashboard/blob/main/assets/logo.png?raw=true")
+    st.image("https://github.com/bagusakhlaq/DICODING-Bike_Sharing_Dashboard/blob/main/assets/logo.png?raw=true", width=60)
 
 with col2:
     st.header("Bike Share Dashboard")
