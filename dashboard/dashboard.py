@@ -6,8 +6,8 @@ import streamlit as st
 import datetime as dt
 
 # Load processed dataset
-day_df = pd.read_csv('day_df.csv')
-hour_df = pd.read_csv('hour_df.csv')
+day_df = pd.read_csv('https://raw.githubusercontent.com/bagusakhlaq/DICODING-Bike_Sharing_Dashboard/main/dashboard/day_df.csv')
+hour_df = pd.read_csv('https://raw.githubusercontent.com/bagusakhlaq/DICODING-Bike_Sharing_Dashboard/main/dashboard/hour_df.csv')
 
 df_list = [day_df, hour_df]
 
